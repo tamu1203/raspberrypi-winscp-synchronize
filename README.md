@@ -29,7 +29,7 @@ ssh(connect.bat)
 connect.bat
 ```
 ### 停止
-sync.bat(sync.bat)
+winSCP(sync.bat)
 ```WinSCP
 Ctrl+C
 ```
