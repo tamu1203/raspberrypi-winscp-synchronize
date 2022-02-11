@@ -24,16 +24,16 @@ winSCP(sync.bat)
 ```cmd
 sync.bat
 ```
-ssh(connect.bat)の実行
+ssh(connect.bat)
 ```ssh
 connect.bat
 ```
 ### 停止
-sync.bat(sync.bat)の停止
+sync.bat(sync.bat)
 ```WinSCP
 Ctrl+C
 ```
-ssh(connect.bat)の停止
+ssh(connect.bat)
 ```ssh
 exit
 ```
