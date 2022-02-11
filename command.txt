@@ -1,0 +1,15 @@
+option batch abort
+option confirm off
+
+# winSCP Download https://winscp.net/eng/download.php
+# winSCP Command-line Options https://winscp.net/eng/docs/commandline
+
+# user is username
+# 192.168.0.10:22 is ipAddress:Port
+# id_rsa is privateKeyPath
+# work/ is localPath
+# /home/user/work/ is remotePath
+
+open sftp://user@192.168.0.10:22 -privatekey=id_rsa
+synchronize -delete remote work/ /home/user/work/
+keepuptodate -delete work/ /home/user/work/
