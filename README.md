@@ -20,18 +20,18 @@ https://zenn.dev/ryo_kawamata/articles/raspberrypi-auth-setting
 sync.batはデスクトップにショートカットを作成し実行、connect.batはvscode内で実行するのを推奨します。
 
 ### 実行
-sync.batの実行
-```Desktop
-sync.bat(ショートカット)
+winSCP(sync.bat)
+```cmd
+sync.bat
 ```
 ssh(connect.bat)の実行
 ```ssh
 connect.bat
 ```
 ### 停止
-sync.batの停止
+sync.bat(sync.bat)の停止
 ```WinSCP
-[Ctrl+C]
+Ctrl+C
 ```
 ssh(connect.bat)の停止
 ```ssh
